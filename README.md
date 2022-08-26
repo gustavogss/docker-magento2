@@ -135,7 +135,12 @@ bin/magento cache:flush
 ```
 bin/magento sampledata:deploy
 ```
-
+                                                                                                                               
+<p align="center">
+    <img src="https://static.ubertheme.com/blog/jan2015/full.jpg" width="400px" " alt="Loja de exemplo Magento" />
+</p>
+                                                                                                                               
+                                                                                                                               
 ## Módulos no Magento:
 
 - Para verificar os módulos instalados, usamos o comando:
@@ -149,6 +154,17 @@ bin/magento module:status
 ```
 bin/magento setup:upgrade
 ```
+
+### Módulos Gratuítos:
+
+- [Rede](https://github.com/DevelopersRede/magento2)
+
+- [PagSeguro](https://github.com/pagseguro/pagseguro-modulo-magento-v2)
+
+- [Correios](https://github.com/Bleez/Bleez-Correios)
+
+- [Freenet](https://github.com/FrenetGatewaydeFretes/frenet-magento2)
+
 
 ## Para reiniciar container:
 
