@@ -48,7 +48,7 @@ rm index.php
 install-magento2
 ```
 
-- Será instalado o Magento e todas as suas dependências. Demoro um pouco o processo.
+- Será instalado o Magento e todas as suas dependências. Demora um pouco esse processo.
 
 ### Possíveis erros:
 
