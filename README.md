@@ -159,3 +159,4 @@ bin/shell
 bin/start
 ```
 
+- [Documentação do Magento](https://devdocs.magento.com/) 
