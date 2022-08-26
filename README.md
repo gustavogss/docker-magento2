@@ -112,18 +112,22 @@ Para começar a usar a tradução instalada na loja e no painel administrativo d
 
 ### Limpando cache do magento:
 
-- No Magento, os caches são compartilhados entre todos os clientes. Então, quando um cliente entra na loja pela primeira vez, o Magento irá realizar as operações e gravá-las no cache, quando algum outro cliente entrar, ele vai usar o mesmo cache gerado pelo primeiro cliente.
+- O Magento faz uso de cache tags, que devem ser especificadas no momento que um dado é salvo no cache. No entanto, nem sempre estas tags são especificadas.
 
 - Sempre que você fizer uma atualização na loja é bom limpar o cache do Magento, então digite o seguinte comando:
 
 ```
-bin/magento cache:flush
+bin/magento cache:clean
 ```
 ou
 ``` 
 bin/magento cache:flush
 ```
-
+                                                                                                                               
+- cache:clean - irá limpar apenas os caches que estão em uso pelo Magento.
+                                                                                                                               
+- cache:flush - limpará todo o storage do cache.                                                                                                                            
+                                                                                                                             
 ## Criando loja de exemplo:
 
 - Digite o comando para criar um loja de exemplo com produtos e categorias:
