@@ -82,9 +82,9 @@ bin/magento admin:user:create --admin-user=seu_usuario --admin-password=sua_senh
 - Digite os seguites comandos em sequência:
 
 ```
-bin/magento module:disable Magento_TwoFactorAuth //desabilitar
-bin/magento cache:flush //limpar cache
-bin/magento setup:di:compile //compilar novamente
+bin/magento module:disable Magento_TwoFactorAuth 
+bin/magento cache:flush 
+bin/magento setup:di:compile 
 ```
 - Depois atualize a página 
 
