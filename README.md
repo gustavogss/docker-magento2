@@ -136,10 +136,11 @@ bin/magento cache:flush
 bin/magento sampledata:deploy
 ```
                                                                                                                                
-<p align="center">
-    <img src="https://static.ubertheme.com/blog/jan2015/full.jpg" width="400px" " alt="Loja de exemplo Magento" />
-</p>
-                                                                                                                               
+## Plataforma sem tema dockerizada:
+
+
+https://user-images.githubusercontent.com/20332960/202967998-9a91df9a-e3dc-4fba-aec7-dfd9b1521726.mp4
+                                                                                                                             
                                                                                                                                
 ## Módulos no Magento:
 
